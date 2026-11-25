@@ -2,8 +2,8 @@ on:
   # manual run
   workflow_dispatch:
   # automatic daily run at 00:00 UTC
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+    #- cron: '0 0 * * *'
 
 # Allow the workflow to write repository contents when committing files
 permissions:
